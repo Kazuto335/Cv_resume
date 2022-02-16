@@ -8,32 +8,18 @@
     
     <script>
 		window.onload=function(){
-			document.getElementById('loader').style.display="none";
-			document.getElementById('content').style.display="block";
+			
+			document.getElementByClass('content').style.display="block";
 		};
 	</script>
     <style>
-		#content{display:none;}
-		
-		#loader{
-			position: absolute;
-			margin: auto;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			width: 400px;
-			height: 400px;
-		}
-		
+		.content{display:none;}
         </style>
     <title>Resume</title>
 </head>
 <body>
-    <div id="loader">
-			<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/1c221769321565.5b7d0cbe74850.gif"/>
-		</div>
-<div id="content">
+   
+<div class="content">
     <div class="Container">
         <div class="Profile">
             <h1>Himanshu 😇</h1>
